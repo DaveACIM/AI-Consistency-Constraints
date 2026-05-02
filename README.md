@@ -1,6 +1,8 @@
 
 # AI Consistency Constraints
 
+A minimal, implementation-oriented framework for reducing contradiction and improving stability in AI systems.
+
 AI systems often produce fluent and useful outputs, but fail to remain consistent across prompts, turns, and contexts.
 
 This repository defines a minimal, practical foundation for improving **consistency and stability in AI systems**.
@@ -94,21 +96,26 @@ These constraints can be implemented through:
 
 - **Consistency Checkers** (detect contradictions in outputs)  
 - **Interaction Guards** (handle inconsistent user input)  
-- **Multi-pass reasoning loops** (generate → critique → reconcile)  
+- **Multi-pass reasoning loops** (generate → critique → reconcile)
+  
+- ## Implementation Layers
+
+### Consistency Checker (CC)
+Detects and resolves contradictions in model outputs.
+
+→ See: [consistency_checker_spec_v1.md](./consistency_checker_spec_v1.md)
+
+---
+
+### Interaction Consistency Guard (ICG)
+Maintains coherent reasoning under inconsistent user input.
+
+→ See: [interaction_consistency_guard_v1.md](./interaction_consistency_guard_v1.md)
 
 Future documents in this repository will provide concrete specifications.
 
----
 
-## Related Work
-
-Introductory article:
-
-> *Why AI Systems Contradict Themselves — and a Simple Way to Fix It*  
-(Link to your Substack here)
-
----
-
+-
 ## Contributing
 
 This is an early-stage framework.
