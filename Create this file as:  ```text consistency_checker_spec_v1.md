@@ -2,6 +2,8 @@
 
 ## Purpose
 
+As AI systems are increasingly used in long-context and high-stakes applications, unresolved contradiction becomes a primary limiting factor in reliability.
+
 The Consistency Checker (CC) is a lightweight mechanism for detecting and reducing unresolved contradictions in AI system outputs.
 
 Its purpose is not to determine ultimate truth.
@@ -12,6 +14,7 @@ Its purpose is to improve:
 - reliability  
 - predictability  
 - stability across interaction  
+
 
 ---
 
